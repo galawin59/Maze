@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1903751209061490}
+  m_IsPrefabAsset: 1
+--- !u!1 &1903751209061490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4684800952313616}
+  - component: {fileID: 65204924176357372}
+  - component: {fileID: 114463512788722380}
+  m_Layer: 2
+  m_Name: Simon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4684800952313616
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1903751209061490}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.06, y: 1.38, z: -14.15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65204924176357372
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1903751209061490}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 19.628006, y: 4.0985994, z: 19.916506}
+  m_Center: {x: -0.061523438, y: 0.22292566, z: -9.458253}
+--- !u!114 &114463512788722380
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1903751209061490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3b8dc511575e874a877cb4a20d83c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToIllumine:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  lightOn: {fileID: 2100000, guid: f449d3ac65229074f8b43735aa5e04f3, type: 2}
+  lightOff: {fileID: 2100000, guid: b445614419d638a4ba8bcc508a783aaa, type: 2}
+  timerWait: 2
+  nbObjectToIlluminate: 3
+  itemToWin: {fileID: 0}
+  clips:
+  - {fileID: 8300000, guid: 6e7f955b00139ea4d95866c7f498d0da, type: 3}
+  - {fileID: 8300000, guid: 52f527df3e8ef7446b87f4fc5ddc0a7d, type: 3}
+  - {fileID: 8300000, guid: 2a415f29216f40447b60a65ef0c01eb4, type: 3}
+  orderToCollectItems: []
+  timer: 0
