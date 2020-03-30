@@ -1,3 +1,5 @@
+Version d'unity utilisé: 2018.2.10f1
+
 z,q,s,d deplacement
 espace saut 
 f interagir 
